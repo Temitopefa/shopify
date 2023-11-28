@@ -159,7 +159,7 @@ function app() {
         event.stopPropagation(); // Stop event propagation to the document click handler
     });
 
-    const contentItems = document.querySelectorAll(".wrapper");
+    const contentItems = document.querySelectorAll(".wrapper");  
 
     contentItems.forEach((contentItem, index) => {
         contentItem.addEventListener("click", () => {

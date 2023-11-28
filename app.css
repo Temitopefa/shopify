@@ -509,10 +509,6 @@
     cursor: pointer;
     transition: all 100ms ease-in;
 }
-    .check_box:focus{
-        outline: 4px solid #005bd3;
-        outline-offset: 4px;
-    }
 
 .check_box:focus .not_completed_icon circle {
     fill: #d9d9dd;
