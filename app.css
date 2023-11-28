@@ -43,9 +43,10 @@
   }
 
   body {
+    margin: 0;
     background: var(--Background, #F1F1F1);
     font-family: Inter;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .menu-active {
@@ -802,13 +803,13 @@
 }
 
 /* Media query for mobile screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .navbar {
         display: flex;
         padding: 12px 16px;
         align-items: center;
         gap: 8px;
-        width: 390px;
+        width: 100%;
         background: #1A1A1A;
     }
     .desktop_logo {
@@ -888,7 +889,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
-        width: 390px;
+        width: 100%;
         align-self: stretch;
         border-radius:0%;
         position: relative;
@@ -915,12 +916,12 @@
         width: 330px;
     }
     .dropdown-section{
-        width: 390px;
+        width: 100%;
         position: relative;
         border-radius: 0%;
     }
  
-    .dropdown-arrow > svg {
+    .dropdown-arrow > button > svg {
         top: 0;
         right: 0;
         position: absolute;
