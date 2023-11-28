@@ -252,6 +252,16 @@
     box-shadow: 0px -1px 0px 0px #B5B5B5 inset;
     cursor: pointer;
 }
+.trial > .btn_wrapper > a >.trial_btn > p {
+    color: var(--font-dark, #323232);
+    text-decoration:none;
+    /* Text-12/Semi bold */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+}
 .trial > .btn_wrapper > a >.trial_btn:hover{
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, 0.10);
